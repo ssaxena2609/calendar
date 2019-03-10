@@ -1,0 +1,161 @@
+.jumbotron.headerContainer {
+    padding-top: 15px;
+}
+.arrowBtnGrp {
+    display: inline-block;
+    padding: 0 12px;
+}
+.col-sm-3.col-md-4.col-lg-4.headerLeft {
+    padding-left: 39px;
+}
+.todayBtn {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.fa-icon {
+	height: 1em;
+    line-height: 1em;
+    font-size: 1em;
+    font-family: "Courier New",Courier,monospace;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+button.addBtn, button.todayBtn, button.leftBtn, button.rightBtn, .col-sm-2.col-md-4.col-lg-6.headerMid {
+    padding: 4px 10px 0px;
+}
+.fa-icon:after {
+    position: relative;
+}
+.fa-icon.fa-icon-left-single-arrow {
+	position: relative;
+    top: 0px;
+    margin: 0 3px;
+    vertical-align: middle;
+}	
+.fa-icon-left-single-arrow:after {
+    content: "\2039";
+	color: black;
+    font-weight: 700;
+    font-size: 200%;
+    top: -7%;
+}
+.fa-icon-right-single-arrow:after {
+    content: "\203A";
+	color: black;
+    font-weight: 700;
+    font-size: 200%;
+    top: 0px;
+}
+.tableSpacing {
+	border: 0;
+	border: 0px none;
+}
+.tdStyle {
+	cursor: default; 
+	padding: 0px; 
+	border: 0px none;
+}
+.calendar_default_rowheader {
+	position: relative;
+	width: 45px; 
+	height: 40px; 
+	overflow: hidden;
+}
+.calendar_default_rowheader_inner {
+	height: 39px;
+}
+.rightPanelTd {
+	padding: 0px; 
+	border: 0px none; 
+	vertical-align: top;
+	height: 20px;
+	overflow: hidden;
+}
+.calendarCell {
+	height: 20px; 
+	position: relative;
+}
+.calendar_default_main {
+   /*  font-size: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-image: initial; */
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.cellStyling {
+	padding: 0px; 
+	border: 0px;
+	height: 0px; 
+	overflow: visible; 
+	text-align: left;
+}
+.calendar_default_cell_inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    background: rgb(249, 249, 249);
+}
+.calendar_default_cell {
+    height: 20px;
+    position: relative;
+}
+.scheduledEvent {
+	height: 19px;
+	background-color: lightgrey;
+    text-align: center;
+}
+input#eventName {
+    width: 77%;
+}
+select#selectTime {
+    width: 78%;
+}
+.divSpacing {
+    margin: 0px 0 11px;
+}
+.modalHeading {
+    padding: 12px;
+    background: rgb(204, 204, 204);
+    margin-bottom: 13px !important;
+}
+a.deleteBtn {
+    float: right;
+    padding-right: 14px;
+}
+.tdBtn {
+    display: inline-block;
+    float: right;
+}
+a.editBtn {
+    padding-right: 10px;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+     background-color: #00000069 !important;
+ }
+.ReactModal__Content.ReactModal__Content--after-open {
+    padding: 0px !important;
+}
+.errorContainer {
+    padding: 10px;
+    color: red;
+}
+.errorDisplay {
+    display: block;
+    color: red;
+}
